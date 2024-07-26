@@ -1,8 +1,8 @@
 \documentclass{article}
 \usepackage[
 a4paper,
-margin=0.5cm,
-top=1.5cm,
+margin=1cm,
+top=2cm,
 headheight=1cm,
 ]{geometry}
 \usepackage[colorlinks=true]{hyperref}
@@ -10,20 +10,25 @@ headheight=1cm,
 \usepackage{titlesec}
 \usepackage{titling}
 \usepackage{fancyhdr}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{xpatch}
+
+\definecolor{DarkGreen}{RGB}{100, 70, 10}
 
 \pagestyle{fancy}
 \fancyhead{}
 \fancyhead[R]{\thepage}
-\renewcommand{\headrulewidth}{0pt}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{2pt}
+\xpretocmd\headrule{\color{Blue}}{}{\PatchFailed}
 
-%\pagenumbering{gobble}
 \renewcommand{\familydefault}{\sfdefault}
 
 \titleformat{\section}
 {\huge\bfseries}
 {}
 {0em}
-{}[\titlerule]
+{}[{\color{DarkGreen}\titlerule[1.5pt]}]
 
 \titleformat{\subsection}[runin]
 {\bfseries}
@@ -47,6 +52,7 @@ headheight=1cm,
 05. November 1997
 
 \subsection{E-Mail}
+\href{linkai.zhang@einyamkamnil.xyz}{linkai.zhang@einyakamnil.xyz},
 \href{linkai.zhang@xinux.de}{linkai.zhang@xinux.de}
 
 \subsection{Telefon}
@@ -55,52 +61,74 @@ headheight=1cm,
 \subsection{GitHub}
 \href{https://github.com/EinYakAmNil}{https://github.com/EinYakAmNil}
 
-\section{Bildung}
+\section{Bildung und berufliche Laufbahn}
 
 \subsection{Abitur}
 Gymnasium Höchstadt 2008-2016
 
 \subsection{Universität}
-Integrated Life Science an der Friedrich-Alexander Universität 2016-2020
+Integrated Life Science an der Friedrich-Alexander Universität 2016 - 2020
 
 \subsection{Ausbildung}
-Fachinformatik für Systemintegration bei xinux GmbH seit August 2022
+Fachinformatik für Systemintegration bei xinux GmbH von 2022 - 2024
 
-\section{Sprachen}
+\subsection{xinux GmbH}
+Fester Mitarbeiter seit Juni 2024
+
+\section{Sprachkenntnisse}
 
 \subsection{gesprochene Sprachen}
 Deutsch, Englisch, Chinesisch, Spanisch (B1)
 
 \subsection{Programmiersprachen}
-C, Bash, Lua, Python, Golang
+C, Bash, Golang, Lua, Python
 
 \subsection{Markup}
-\LaTeX, Markdown, HTML, CSS
+\LaTeX, Markdown, HTML und CSS
 
 \section{besondere Kenntnisse}
 
 \subsection{Linux}
-Sehr vertraut mit der Funktionsweise von Linux-Systemen.
+Ich bin LPIC-I zertifiziert.
+Ein kleiner Ausschnitt weiterer Erfahrungen beinhaltet:
+\begin{itemize}
+\item{Mandatory Access Control mit SELinux unter RedHat und Apparmor unter Debian}
+\item{Firewalls mit iptables und nftables}
+\item{Bash- und Python-Skripting}
+\item{Ansible}
+\end{itemize}
 
-\subsubsection{Netzwerktechnik}
-gute Kenntnisse in der Konfiguration von VLANs, Firewalls (iptables, nftables und pfSense unter FreeBSD) und anderen Diensten (DNS-, Web-Server, Squid-, HAProxy, etc.)
+\subsection{Netzwerktechnik}
+Ich habe tiefes Verständnis für Netzwerkprotokolle und kenne verschiedene Methoden, um Fehlkonfigurationen zu identifizieren und zu beheben.
+Die Konfiguration von Cisco-Routern und Switches ist mir bekannt.
 
-\subsubsection{Hacking \& Security}
-vertraut mit grundlegenden Hacking-Konzepten und verschiedenen Präventionsmaßnahmen auf Host- und Netz\-werkbasis
+\subsection{Monitoring \& Security}
+Grundlegende Hacking-Konzepte sind mir bekannt.
+In meinen Schulungen habe ich oft Suricata als IDS/IPS vorgestellt und konfiguriert.
+Außerdem bin ich vertraut mit Monitoring-Systemen wie Checkmk und dem Elastic-Stack.
 
-\subsubsection{Virtualisierung}
-kann mit Proxmox, VMWare und VirtualBox virtuelle Infrastrukturen aufsetzen
+\subsection{Virtualisierung}
+Ich habe folgende Virtualisierungslösungen bisher benutzt:
+\begin{itemize}
+	\item Proxmox
+	\item VMWare
+	\item VirtualBox
+	\item Hyper-V
+\end{itemize}
 
-\subsection{Programmieren}
-Hauptsächlich Erfahrung mit Webscraping, Datenparsen, -verarbeitung, -darstellung (Python), Skripte schreiben (Bash, Python) und Konfigurieren von Programmen mit Lua-Schnittstellen
+\subsection{Programmierung}
+Meine bisherigen Programmierprojekte haben folgenden Domänen beinhaltet:
+\begin{itemize}
+	\item Webscraping
+	\item Datenpipelining und -analyse
+	\item Entwicklung von Werkzeugen für einfachere Softwareentwicklung
+\end{itemize}
 
 \subsection{Laborarbeit}
-Laborerfahrung mit verschiedenen chemischen, biologischen (S1 Labor), kristallographischen und physikalischen Experimenten
+Ich habe Laborerfahrung mit verschiedenen chemischen, biologischen (S1 Labor), kristallographischen und physikalischen Experimenten.
 
 \subsection{3D-Modellierung}
-fortgeschrittener Umgang mit Modelling Werkzeugen in Blender
-
-\newpage
+Ich kann mit Modelling Werkzeugen in Blender umgehen.
 
 \section{Schulungen}
 
@@ -132,10 +160,9 @@ fortgeschrittener Umgang mit Modelling Werkzeugen in Blender
 \subsection{CCPBSA}
 Code für ein Verfahren zur Berechnung von Energiedifferenzen von Proteinfaltungen in Python:
 
-(GitHub: \href{https://github.com/EinYakAmNil/CC-PBSA}{https://github.com/EinYakAmNil/CC-PBSA})
+\href{https://github.com/EinYakAmNil/CC-PBSA}{https://github.com/EinYakAmNil/CC-PBSA}
 
 \subsection{iGEM}
-
 \begin{itemize}
 \item Datensammlung und -verarbeitung für ein Machine Learning Projekt beim "international Genetically Engineered Machine"-Wettbewerb in 2019
 \item Schulung von Studenten des 1. und 2. Semesters im Schreiben von Python-Skripten
@@ -144,7 +171,11 @@ Code für ein Verfahren zur Berechnung von Energiedifferenzen von Proteinfaltung
 \end{itemize}
 
 \subsection{Nvimboat}
-
 Ein erweiterbares RSS/Twitter/Reddit Reader Plugin für Neovim: \href{https://github.com/EinYakAmNil/Nvimboat.git}{https://github.com/EinYakAmNil/Nvimboat.git}
+
+\subsection{tree-sitter-nftables}
+Plattformunabhängiges Syntaxhighlighting für nftables:
+
+\href{https://github.com/EinYakAmNil/tree-sitter-nftables.git}{https://github.com/EinYakAmNil/tree-sitter-nftables.git}
 
 \end{document}
