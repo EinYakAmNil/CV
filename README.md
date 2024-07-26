@@ -4,8 +4,8 @@
 05\. November 1997
 
 ## E-Mail
-[linkai.zhang@einyamkamnil.xyz](linkai.zhang@einyakamnil.xyz),
-[linkai.zhang@xinux.de](linkai.zhang@xinux.de)
+[linkai.zhang@einyamkamnil.xyz](mailto:linkai.zhang@einyakamnil.xyz),
+[linkai.zhang@xinux.de](mailto:linkai.zhang@xinux.de)
 
 ## Telefon
 +49 15159001842
