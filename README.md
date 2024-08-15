@@ -8,7 +8,7 @@
 [linkai.zhang@xinux.de](mailto:linkai.zhang@xinux.de)
 
 ## Telefon
-+49 15159001842
++49 15903189871
 
 ## GitHub
 [https://github.com/EinYakAmNil](https://github.com/EinYakAmNil)
@@ -33,7 +33,7 @@ Fester Mitarbeiter seit Juni 2024
 Deutsch, Englisch, Chinesisch, Spanisch (B1)
 
 ## Programmiersprachen
-C, Bash, Golang, Lua, Python
+C, Bash, Golang, JavaScript, Lua, Python
 
 ## Markup
 \LaTeX, Markdown, HTML und CSS
