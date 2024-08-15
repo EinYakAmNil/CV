@@ -41,7 +41,7 @@ C, Bash, Golang, Lua, Python
 # besondere Kenntnisse
 
 ## Linux
-Ich bin LPIC-I zertifiziert.
+Ich bin LPIC-I zertifiziert (Verifizierung: [https://www.lpi.org/verify/LPI000572149/cclmqbtkrb](https://www.lpi.org/verify/LPI000572149/cclmqbtkrb)).
 Ein kleiner Ausschnitt weiterer Erfahrungen beinhaltet:
 - Mandatory Access Control mit SELinux unter RedHat und Apparmor unter Debian
 - Firewalls mit iptables und nftables
@@ -95,7 +95,8 @@ Ich kann mit Modelling Werkzeugen in Blender umgehen.
 - Linux - Security und Firewall für ML Consulting, Schulung, Service \& Support GmbH/Bundeswehr in Koblenz und Online
 - Informationssicherheit in Linux-Umgebungen mit Live-Hacking-Demonstrationen für ML Consulting, Schulung, Service \& Support GmbH/Hochschule Meißen (Online)
 - Analyse und Monitoring von Netzwerken für ML Consulting, Schulung, Service \& Support GmbH/Bundeswehr in Dresden
-- Netzwerkdienste und Protokolle als Basis der Optimierung in Koblenz
+- Netzwerkdienste und Protokolle als Basis der Optimierung für ML Consulting, Schulung, Service & Support GmbH/KIT/Bundeswehr in Koblenz
+- Netzwerk- und Serveradministration unter Linux für ML Consulting, Schulung, Service & Support GmbH/KIT/Bundeswehr
 
 # Projekte
 
@@ -109,9 +110,10 @@ Code für ein Verfahren zur Berechnung von Energiedifferenzen von Proteinfaltung
 - Schulung von Studenten des 1. und 2. Semesters im Schreiben von Python-Skripten
 - Projektdauer 1 Jahr
 - Projektwebseite: [https://2019.igem.org/Team:FAU_Erlangen](https://2019.igem.org/Team:FAU\_Erlangen)
+(Online)
 
 ## Nvimboat
-Ein erweiterbares RSS/Twitter/Reddit Reader Plugin für Neovim: [https://github.com/EinYakAmNil/Nvimboat.git](https://github.com/EinYakAmNil/Nvimboat.git)
+Ein erweiterbares RSS-Reader-Plugin für Neovim: [https://github.com/EinYakAmNil/Nvimboat.git](https://github.com/EinYakAmNil/Nvimboat.git)
 
 ## tree-sitter-nftables
 Plattformunabhängiges Syntaxhighlighting für nftables:
